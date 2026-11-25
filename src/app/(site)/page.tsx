@@ -5,9 +5,13 @@ import BookGrid from '@/components/BookGrid';
 import CategoryCard from '@/components/CategoryCard';
 import { IconArrowRight, IconBook } from '@/components/icons';
 import { getPublicStats, listAllBooks, listAuthors, listCategories, getSiteSettings } from '@/lib/store';
-import { pageMeta } from '@/lib/seo';
+import { SITE } from '@/lib/constants';
 
-export const metadata = pageMeta({ path: '/' });
+export const metadata = {
+  title: { absolute: `${SITE.name} — ${SITE.description}` },
+  description: SITE.description,
+  alternates: { canonical: '/' },
+};
 export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {

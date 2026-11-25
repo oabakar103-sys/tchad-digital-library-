@@ -8,3 +8,4 @@ out/
 data-runtime/
 public/livres/uploads/*
 !public/livres/.gitkeep
+.vercel
