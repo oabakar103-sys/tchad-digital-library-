@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rv-001",
+    "bookId": "bk-001",
+    "readerName": "Mariam Abba",
+    "readerEmail": "mariam.abba@exemple.td",
+    "rating": 5,
+    "comment": "Un roman qui fait entendre la voix des femmes du Ouaddaï. Impossible de lâcher avant la dernière page.",
+    "status": "approved",
+    "createdAt": "2026-09-12T10:20:00.000Z"
+  },
+  {
+    "id": "rv-002",
+    "bookId": "bk-008",
+    "readerName": "Yacine Ahmat",
+    "readerEmail": "yacine.ahmat@exemple.td",
+    "rating": 5,
+    "comment": "Guide très clair, utilisé dans notre groupement de paysans. Merci pour les schémas de calendrier cultural.",
+    "status": "approved",
+    "createdAt": "2026-08-30T14:05:00.000Z"
+  },
+  {
+    "id": "rv-003",
+    "bookId": "bk-012",
+    "readerName": "Idriss M.",
+    "readerEmail": "idriss.m@exemple.td",
+    "rating": 4,
+    "comment": "Belles nouvelles sur N'Djaména. Quelques textes très courts, on en voudrait davantage.",
+    "status": "approved",
+    "createdAt": "2026-10-02T19:41:00.000Z"
+  },
+  {
+    "id": "rv-004",
+    "bookId": "bk-010",
+    "readerName": "Salma K.",
+    "readerEmail": "salma.k@exemple.td",
+    "rating": 5,
+    "comment": "Indispensable pour les centres de santé communautaires. Pourrait gagner une version haoussa ou arabe tchadienne.",
+    "status": "pending",
+    "createdAt": "2026-11-08T08:12:00.000Z"
+  },
+  {
+    "id": "rv-005",
+    "bookId": "bk-004",
+    "readerName": "A. Mourtala",
+    "readerEmail": "a.mourtala@exemple.td",
+    "rating": 3,
+    "comment": "Poésie convenable mais quelques titres peu accessibles pour les jeunes lecteurs débutants.",
+    "status": "pending",
+    "createdAt": "2026-11-15T16:30:00.000Z"
+  },
+  {
+    "id": "rv-006",
+    "bookId": "bk-005",
+    "readerName": "spam_profiteur",
+    "readerEmail": "spam@spam-exemple.com",
+    "rating": 1,
+    "comment": "Cliquez ici pour gagner de l'argent rapidement, WhatsApp +235... Arnaque garantie.",
+    "status": "rejected",
+    "createdAt": "2026-11-10T11:00:00.000Z"
+  }
+]

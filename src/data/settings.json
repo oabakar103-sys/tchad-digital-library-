@@ -1,0 +1,31 @@
+{
+  "siteName": "Tchad Digital Library",
+  "tagline": "La bibliothèque francophone du Tchad et de sa diaspora",
+  "slogans": [
+    "Le Tchad lit. Le monde découvre.",
+    "Mille livres, un seul clic.",
+    "Lire, c'est semer pour demain.",
+    "Un peuple qui lit est un peuple qui avance.",
+    "Votre bibliothèque, partout, tout le temps.",
+    "Du baobab aux pages : le savoir sans frontières.",
+    "Le savoir n'a pas de frontières, ouvrez la porte."
+  ],
+  "heroTitle": "Le savoir du Tchad, numérique et pour tous",
+  "heroSubtitle": "Des milliers d'ouvrages francophones en PDF — romans, histoire, droit, sciences, éducation, jeunesse. À lire en ligne, à télécharger, sur mobile comme sur ordinateur, même en connexion faible.",
+  "aboutTitle": "Une bibliothèque, une communauté",
+  "aboutText": "Tchad Digital Library est née d'une conviction : le savoir ne doit pas dépendre de l'éloignement ou du revenu. Le site rassemble des ouvrages libres de droit ou déposés par leurs auteurs, les met en forme pour la lecture sur mobile, et construit une mémoire littéraire et scientifique tchadienne accessible partout. Biblioécrivains, enseignants, étudiants et lecteurs de la diaspora y trouvent un espace commun.",
+  "contributionText": "Vous écrivez, enseignez ou détenez des ouvrages numérisés ? Envoyez-nous vos fichiers PDF : notre équipe catalogue, prépare la couverture et publie. Les auteurs conservent leurs droits et choisissent la licence de diffusion.",
+  "contactEmail": "contact@tchaddigitallibrary.org",
+  "contactPhone": "+235 60 00 00 00",
+  "contactAddress": "N'Djaména, Tchad — quartier administratif, BP 11 456",
+  "primaryColor": "#0f4f9e",
+  "secondaryColor": "#f2b200",
+  "logoText": "TDL",
+  "social": {
+    "whatsapp": "https://wa.me/23560000000",
+    "facebook": "https://facebook.com/tchaddigitallibrary",
+    "x": "https://x.com/tchadlibrary",
+    "youtube": "https://youtube.com/@tchaddigitallibrary"
+  },
+  "maintenanceMode": false
+}

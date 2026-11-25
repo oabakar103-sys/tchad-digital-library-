@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --surface: #fdfbf6;
+    --surface-soft: #f8f3e7;
+    --surface-card: #ffffff;
+    --ink: #1c2733;
+    --ink-soft: #465668;
+    --line: #e7ddc8;
+  }
+
+  .dark {
+    --surface: #071426;
+    --surface-soft: #0b1d36;
+    --surface-card: #0f2544;
+    --ink: #e8eef6;
+    --ink-soft: #a9bdd4;
+    --line: #1d375c;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--surface);
+    color: var(--ink);
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif tracking-tight;
+  }
+
+  ::selection {
+    background: rgba(242, 178, 0, 0.35);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-tchad-blue-200 dark:bg-tchad-blue-800 rounded-full;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-tchad-gold-400 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-tchad-blue-600 text-white hover:bg-tchad-blue-700 shadow-card;
+  }
+  .btn-gold {
+    @apply btn bg-tchad-gold-500 text-tchad-blue-950 hover:bg-tchad-gold-400;
+  }
+  .btn-outline {
+    @apply btn border border-[var(--line)] text-[var(--ink)] hover:bg-[var(--surface-soft)];
+  }
+  .btn-danger {
+    @apply btn bg-tchad-red-600 text-white hover:bg-tchad-red-700;
+  }
+
+  .card {
+    @apply rounded-2xl bg-[var(--surface-card)] border border-[var(--line)] shadow-card;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-[var(--line)] bg-[var(--surface-card)] px-3.5 py-2.5 text-sm text-[var(--ink)] placeholder:text-[var(--ink-soft)] focus:outline-none focus:ring-2 focus:ring-tchad-blue-400 focus:border-tchad-blue-400;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-[var(--ink-soft)];
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl font-bold;
+  }
+
+  .badge {
+    @apply chip;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .cover-pattern {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.14) 0, transparent 45%),
+      radial-gradient(circle at 85% 80%, rgba(0, 0, 0, 0.18) 0, transparent 40%);
+  }
+}

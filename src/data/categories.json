@@ -1,0 +1,14 @@
+[
+  { "id": "cat-litt-af", "slug": "litterature-africaine", "name": "Littérature africaine", "description": "Romans, nouvelles et récits nés du continent : voix du Sahel, du golfe et de la diaspora.", "color": "#0f4f9e", "icon": "book-open", "sortOrder": 1 },
+  { "id": "cat-romans", "slug": "romans", "name": "Romans & récits", "description": "Fiction générale, aventures et fresques familiales.", "color": "#c8102e", "icon": "library", "sortOrder": 2 },
+  { "id": "cat-poesie", "slug": "poesie", "name": "Poésie & théâtre", "description": "Vers, slam et pièces de scène en français et en langues africaines.", "color": "#a67200", "icon": "feather", "sortOrder": 3 },
+  { "id": "cat-histoire", "slug": "histoire", "name": "Histoire & géographie", "description": "Passé tchadien, routes caravanières, cartes et mémoires régionales.", "color": "#082f66", "icon": "map", "sortOrder": 4 },
+  { "id": "cat-droit", "slug": "droit", "name": "Droit & jurisprudence", "description": "Codes, études juridiques et décisions utiles aux praticiens du Tchad.", "color": "#543900", "icon": "scale", "sortOrder": 5 },
+  { "id": "cat-politique", "slug": "sciences-politiques", "name": "Sciences politiques", "description": "Gouvernance, institutions, diplomatie et citoyenneté.", "color": "#85091e", "icon": "landmark", "sortOrder": 6 },
+  { "id": "cat-economie", "slug": "economie", "name": "Économie & gestion", "description": "Marchés, agriculture marchande, finance populaire et entrepreneuriat.", "color": "#0f4f9e", "icon": "chart", "sortOrder": 7 },
+  { "id": "cat-education", "slug": "education", "name": "Éducation & pédagogie", "description": "Manuels, méthodes d'apprentissage et ressources pour enseignants.", "color": "#d19400", "icon": "graduation", "sortOrder": 8 },
+  { "id": "cat-religion", "slug": "religion", "name": "Religion & spiritualité", "description": "Textes fondateurs, commentaires et dialogues interconfessionnels.", "color": "#062450", "icon": "sun", "sortOrder": 9 },
+  { "id": "cat-jeunesse", "slug": "jeunesse", "name": "Jeunesse", "description": "Contes, albums et romans pour enfants et adolescents.", "color": "#e86a6a", "icon": "sparkles", "sortOrder": 10 },
+  { "id": "cat-sante", "slug": "sante", "name": "Santé & bien-être", "description": "Prévention, nutrition, santé maternelle et guides pratiques.", "color": "#2f6cbf", "icon": "heart", "sortOrder": 11 },
+  { "id": "cat-agriculture", "slug": "agriculture", "name": "Agriculture & environnement", "description": "Cultures vivrières, élevage, eau et adaptation au climat.", "color": "#7c5400", "icon": "leaf", "sortOrder": 12 }
+]

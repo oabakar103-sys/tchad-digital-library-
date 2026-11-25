@@ -1,0 +1,52 @@
+[
+  {
+    "id": "usr-admin",
+    "email": "superadmin@tchaddigital.td",
+    "name": "Super Administrateur",
+    "role": "super_admin",
+    "status": "active",
+    "favorites": [],
+    "later": [],
+    "createdAt": "2024-01-01T08:00:00.000Z"
+  },
+  {
+    "id": "usr-editor",
+    "email": "editeur@tchaddigital.td",
+    "name": "Éditeur Catalogue",
+    "role": "editor",
+    "status": "active",
+    "favorites": [],
+    "later": [],
+    "createdAt": "2024-01-02T08:00:00.000Z"
+  },
+  {
+    "id": "usr-1",
+    "email": "mariam.abba@exemple.td",
+    "name": "Mariam Abba",
+    "role": "reader",
+    "status": "active",
+    "favorites": ["bk-001", "bk-010"],
+    "later": ["bk-017"],
+    "createdAt": "2024-05-11T08:00:00.000Z"
+  },
+  {
+    "id": "usr-2",
+    "email": "yacine.ahmat@exemple.td",
+    "name": "Yacine Ahmat",
+    "role": "reader",
+    "status": "active",
+    "favorites": ["bk-008"],
+    "later": ["bk-005", "bk-013"],
+    "createdAt": "2024-09-23T08:00:00.000Z"
+  },
+  {
+    "id": "usr-3",
+    "email": "g.bekimna@exemple.td",
+    "name": "Gerard Bekimna",
+    "role": "reader",
+    "status": "banned",
+    "favorites": [],
+    "later": [],
+    "createdAt": "2025-02-04T08:00:00.000Z"
+  }
+]

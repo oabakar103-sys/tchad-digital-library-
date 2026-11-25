@@ -1,0 +1,32 @@
+{
+  "name": "Tchad Digital Library",
+  "short_name": "TDL",
+  "description": "Bibliothèque numérique francophone du Tchad et de la diaspora : livres PDF à lire en ligne et à télécharger.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#071426",
+  "theme_color": "#0a3d82",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Catalogue", "url": "/catalogue" },
+    { "name": "Recherche", "url": "/recherche" },
+    { "name": "Ma bibliothèque", "url": "/bibliotheque" }
+  ]
+}
